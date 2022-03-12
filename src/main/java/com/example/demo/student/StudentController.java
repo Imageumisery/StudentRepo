@@ -34,9 +34,9 @@ public void UpdateStudent (
 		studentService.updateStudent (studentId,
 				name,
 				email);
+	System.out.println(getStudents());
 
 }
-
 	@DeleteMapping(path = "{studentId}")
 	public void deleteStudent(@PathVariable("studentId") Long studentId) {
 		studentService.deleteStudent(studentId);
