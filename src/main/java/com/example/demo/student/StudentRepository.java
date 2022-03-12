@@ -20,6 +20,7 @@ extends JpaRepository<Student, Long> {
 //	studentRepository.findStudentByEmail(student.getEmail());
 	Optional<Student> findStudentByEmail(String email);
 
+
 	
 
 }
